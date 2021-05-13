@@ -1642,6 +1642,25 @@ xkb_symbols "cz_sk_pl_de" {
 
     key <SPCE>  { [     space,       space, nobreakspace, nobreakspace] };
 
+    // Polish
+    key <AD01>	{ [         q,          Q,      aogonek,      Aogonek ]	};
+    key <AD02>	{ [         w,          W,      eogonek,      Eogonek ]	};
+    key <AD12>	{ [bracketright, braceright, guillemotleft, guillemotright ] };
+    key <AC04>	{ [         f,          F,       sacute,       Sacute ]	};
+    key <AC05>	{ [         g,          G,    copyright,   registered ]	};
+    key <AC06>	{ [         h,          H,         cent,    trademark ]	};
+    key <AC07>	{ [         j,          J,     ellipsis,  dead_stroke ] };
+    key <AC08>	{ [         k,          K,      lstroke,      Lstroke ]	};
+    key <AC12>  { [ backslash,        bar,    plusminus,       degree ] };
+    key <BKSL>	{ [    endash,     emdash,    zabovedot,    Zabovedot ]	};
+    key <AB02>	{ [         x,          X,       zacute,       Zacute ]	};
+    key <AB04>	{ [         v,          V,       cacute,       Cacute ]	};
+    key <AB05>	{ [         b,          B, rightdoublequotemark, leftdoublequotemark ] };
+    key <AB07>	{ [         m,          M,       nacute,       Nacute ]	};
+    key <AB08>	{ [     comma,       less,lessthanequal,     multiply ]	};
+    key <AB09>	{ [    period,    greater, greaterthanequal, division ]	};
+    key <AB10>	{ [     slash,   question,        U2248,     infinity ] };
+
     include "level3(ralt_switch)"
 };
 
