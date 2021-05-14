@@ -1,7 +1,7 @@
 Source: xkeyboard-config
 Section: x11
 Priority: optional
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Maintainer: Vitalii Chernookyi <vitaly.v.ch@gmail.com>
 Build-Depends:
  debhelper-compat (= 12),
  quilt,
@@ -13,8 +13,8 @@ Build-Depends-Indep:
  xsltproc,
  xutils-dev (>= 1:7.6+2),
 Standards-Version: 4.5.0
-Vcs-Git: https://salsa.debian.org/xorg-team/data/xkb-data.git
-Vcs-Browser: https://salsa.debian.org/xorg-team/data/xkb-data
+Vcs-Git: https://github.com/freedesktop/xkeyboard-config.git
+Vcs-Browser: https://github.com/freedesktop/xkeyboard-config
 Homepage: https://www.freedesktop.org/Software/XKeyboardConfig
 
 Package: xkb-data
