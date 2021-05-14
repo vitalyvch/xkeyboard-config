@@ -1762,8 +1762,10 @@ xkb_symbols "cz_sk_pl_de" {
     key <AC06>	{ [         h,          H,         cent,    trademark ]	};
     key <AC07>	{ [         j,          J,     ellipsis,  dead_stroke ] };
     key <AC08>	{ [         k,          K,      lstroke,      Lstroke ]	};
-    key <AC12>  { [ backslash,        bar,    plusminus,       degree ] };
-    key <BKSL>	{ [    endash,     emdash,    zabovedot,    Zabovedot ]	};
+    //alias <AC12> = <BKSL>;
+    key <BKSL>	{ [ backslash,        bar,    plusminus,       degree ] };
+    //Requires pc105 compatibility
+    key <LSGT>	{ [    endash,     emdash,    zabovedot,    Zabovedot ]	};
     key <AB02>	{ [         x,          X,       zacute,       Zacute ]	};
     key <AB04>	{ [         v,          V,       cacute,       Cacute ]	};
     key <AB05>	{ [         b,          B, rightdoublequotemark, leftdoublequotemark ] };
