@@ -399,6 +399,24 @@
         </variant>
         <variant>
           <configItem>
+            <name>cz_sk_pl_de_es_fi_sv_fr_it</name>
+            <description>Czech, Slovak, Polish, Spanish, Finnish, Swedish, French, Italian and German (US)</description>
+            <languageList>
+              <iso639Id>eng</iso639Id>
+              <iso639Id>cze</iso639Id>
+              <iso639Id>slo</iso639Id>
+              <iso639Id>pol</iso639Id>
+              <iso639Id>ger</iso639Id>
+              <iso639Id>spa</iso639Id>
+              <iso639Id>fin</iso639Id>
+              <iso639Id>swe</iso639Id>
+              <iso639Id>ita</iso639Id>
+              <iso639Id>fra</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>drix</name>
             <description>English (Drix)</description>
           </configItem>
